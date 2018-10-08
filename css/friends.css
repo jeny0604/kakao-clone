@@ -1,23 +1,22 @@
 .friends__section .friends__section-header {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  padding-left: 15px;
-  /*original padding :10px 15px;*/
+  padding: 10px 15px;
   font-size: 12px;
   color: #b4b4b4;
 }
 
 .friends__section-rows .friends__section-row {
   padding: 10px 15px;
-  /*여기서 플랙스 후 센터를 적용하는 것이 어떻게 변화를 주는지 감이 안온달까.... ㅠ*/
+  /*상위 div에 크기가 맞춰진다. (center를 사용하지 않으면)*/
   display: flex;
   align-items: center;
-  /**/
   font-size: 14px;
 }
 
 .friends__section-row img {
   width: 40px;
+  /* height: 40px; */
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -30,7 +29,6 @@
 .friends__section-column {
   display: flex;
   align-items: center;
-  /*왜 이걸하면 다 센터로 가는걸까... ㅠ*/
 }
 
 .friends__section-row.with-tagline {

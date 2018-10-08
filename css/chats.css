@@ -1,0 +1,44 @@
+.chats .chats__list {
+  border-top: 1px solid #ebebeb;
+  /*border-bottom: 1px solid #ebebeb;
+  영상에서는 줄이 두개라고 chats__chat:last-child의 border를 none으로 하였지만... 굳이?*/
+}
+
+.chats__list .chats__chat {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+  /*심각하다... 저 원도 안사라지고, 그래서 그런지 저 밑의 선도 잘려서 나온다...*/
+}
+
+.chats__chat .chat__content img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.chats__list .chats__chat a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chats__list .chat__content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.chat__preview .chat__user {
+  font-weight: 600; /*잉 원래 부터 fat한디요...?*/
+  margin-bottom: 5px; /*왜 마진을 적용했는데 줄어들죠..? 매직..?*/
+}
+
+.chat__preview .chat__last-message {
+  color: #b4b4b4;
+  font-size: 12px;
+}
+
+.chats__chat .chat__date-time {
+  font-size: 10px;
+  color: #b4b4b4;
+}

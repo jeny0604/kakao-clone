@@ -1,6 +1,8 @@
 .search-bar {
   padding: 15px 25px;
   position: relative;
+  /* z-index: -1; */
+  /* 코드 추가함 */
 }
 
 .search-bar input {

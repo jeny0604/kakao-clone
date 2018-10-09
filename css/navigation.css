@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 30px 5px 30px;
+  /* 왼쪽이 너무 남아도는데 왜인지 모르겠 ㅠ */
   border-top: 1px solid #c1c1c1;
 }
 
